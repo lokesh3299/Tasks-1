@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    margin-top: 5ch;
+    width: auto;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.input:focus::placeholder {
+    color: transparent;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    margin: 2ch 0;
+    width: auto;
+    border-bottom: 1px solid gray;
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+}

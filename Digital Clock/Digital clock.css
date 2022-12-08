@@ -1,0 +1,16 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background: rgb(225, 225, 103);
+}
+@font-face {
+  font-family: digital;
+  src: url(./digital.ttf);
+}
+.container {
+  font-family: digital;
+  color: red;
+  font-size: 110px;
+  text-align: center;
+  padding-top: 5ch;
+}

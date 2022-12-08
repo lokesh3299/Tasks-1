@@ -1,0 +1,36 @@
+.content{
+    margin: auto;
+    text-align: center;
+}
+.main{
+    margin-top: 20ch;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.main:hover{
+    outline: none;
+    border-color: rgb(74, 146, 235);
+    box-shadow: 0 0 4px rgb(74, 146, 235);
+}
+
+.main:focus::placeholder{
+color: transparent;
+}
+
+#button2 {
+    background-color: #030804;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#button2:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+#button1:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+/* (A) SEARCH BOX */
+#the-filter {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+/* (B) LIST */
+#the-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#the-list li {
+    padding: 10px;
+    border-bottom: 2px solid #ffe9e9;
+}
+
+#the-list li:hover {
+    background: #fffed6;
+}
+
+#the-list li.hide {
+    display: none;
+}
