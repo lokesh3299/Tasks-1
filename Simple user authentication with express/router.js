@@ -2,7 +2,7 @@ var express = require("express")
 var router = express.Router()
 
 const credential = {
-    email: "user@gamil.com",
+    email: "user@gmail.com",
     password: "user123"
 }
 
